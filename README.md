@@ -1,6 +1,9 @@
 <div>
   <h1>O que é isso? 👨‍💻</h1>
-  <p>Este texto apresenta detalhadamente as funcionalidades e minhas decisões para a construção desta aplicação web.</p>
+  <p>
+    Este texto apresenta detalhadamente as funcionalidades e minhas decisões para a construção desta aplicação web. O objetivo de documentar
+    o projeto é para fins educacionais, tanto para me ajudar e ajudar outros desenvolvedores. 
+  </p>
 </div>
 
 <div>
@@ -10,4 +13,22 @@
     do navegador e poder procurar e excluir cada usuário adicionado. 
   </p>
   <img src="https://user-images.githubusercontent.com/81722068/136706855-f4b86a3a-10f1-4f92-853c-84cbee166dc4.png">
+</div>
+
+<div>
+  <h1>Features e conceitos utilizados 🛠️</h1>
+  <h4>
+    Importante: Esse não é o melhor jeito para contruir uma aplicação como esta e com certeza devem existir conceitos e métodos mais fáceis, porém,
+    este foi o melhor e mais eficiente jeito que eu achei para fazer.
+  </h4>  
+  <ul>
+    <li>Constantes (para evitar mutações de código)</li>
+    <li>Variáveis e funcões autoexplicativas (Os nomes fazem sentido para a funcionalidade de cada objeto)</li>
+    <li>Forms (utilizados para facilitar na manipulação de elementos e que fazem sentido dentro deste contexto)</li>
+    <li>Melhor legibilidade (variáveis são usadas para conter um grupo de código e nomeadas para resumir a funcionalidade deste grupo)</li>
+    <li>IIFE (para mudar o escopo de cada página. O uso delas são mais proveitosos em aplicações grandes porém, são consideradas boas práticas)</li>
+    <li>Objetos com arrays (são tipos de dados que juntos são fáceis de utilizar, visando os vários métodos que os dois possuem)</li>
+    <li>Design Patterns (a factory function foi utilizado para deixar o código mais direto e conciso, assim não precisando utilizar funções contrutoras ou classes que dificultam a legibilidade)</li>
+    <li>Destructuring (usado para obter propriedades de objetos)</li>
+  </ul>
 </div>
