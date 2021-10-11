@@ -32,3 +32,25 @@
     <li>Destructuring (usado para obter propriedades de objetos)</li>
   </ul>
 </div>
+
+<div>
+  <h1>Responsabilidades</h1>
+  <p>
+    No total o script possuí 5 responsabilidades, que sao divididas em 5 funções, sendo elas: 
+  </p>
+  <ol>
+    <li>Obter o array de usuários do local Storage</li>
+    <li>Criar usuário</li>
+    <li>Atualizar tabela</li>
+    <li>Buscar usuários</li>
+    <li>Deletar usuário</li>
+  </ol>
+</div>
+  
+<div>
+  <h2>Obter o array de usuários do local Storage</h2>  
+  
+</div>
+  
+  
+  
