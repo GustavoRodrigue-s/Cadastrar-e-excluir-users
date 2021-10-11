@@ -49,7 +49,10 @@
   
 <div>
   <h2>Obter o array de usuários do local Storage</h2>  
-  
+  <img src="https://user-images.githubusercontent.com/81722068/136864730-949f1941-b4e0-4f52-8db2-669f9a699cf9.png">
+  <p>
+    O getArrayFromLocalStorage obtém o array do local Storage e armazena na constante getUsersItem, se o getUsersItem for diferente de null ele é covertido para array e retornado, caso contrário, é retornado um array vazio. 
+  </p>
 </div>
   
   
