@@ -1,7 +1,7 @@
 <div>
   <h1>O que é isso? 👨‍💻</h1>
   <p>
-    Este texto apresenta detalhadamente as funcionalidades e minhas decisões para a construção desta aplicação web. O objetivo de documentar
+    Esse texto apresenta detalhadamente as funcionalidades e minhas decisões para a construção desta aplicação web. O objetivo de documentar
     o projeto é para fins educacionais, tanto para me ajudar e ajudar outros desenvolvedores. 
   </p>
 </div>
