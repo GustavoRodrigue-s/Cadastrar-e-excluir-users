@@ -27,7 +27,7 @@
 <div>
   <h1>Features e conceitos utilizados 🛠️</h1>
   <h4>
-    Importante: Esse não é o melhor jeito para contruir uma aplicação como esta e com certeza devem existir conceitos e métodos mais fáceis, porém,
+    Importante: Este não é o melhor jeito para contruir uma aplicação como essa e com certeza devem existir conceitos e métodos mais fáceis, porém,
     este foi o melhor e mais eficiente jeito que eu achei para fazer.
   </h4>  
   <ul>
@@ -35,7 +35,7 @@
     <li>Variáveis e funcões autoexplicativas (Os nomes fazem sentido para a funcionalidade de cada objeto)</li>
     <li>Forms (utilizados para facilitar na manipulação de elementos e que fazem sentido dentro deste contexto)</li>
     <li>Melhor legibilidade (variáveis são usadas para conter um grupo de código e nomeadas para resumir a funcionalidade deste grupo)</li>
-    <li>IIFE (para mudar o escopo de cada página. O uso delas são mais proveitosos em aplicações grandes porém, são consideradas boas práticas)</li>
+    <li>IIFE (para mudar o escopo de cada página. O uso delas são mais proveitosos em grandes aplicações porém, são consideradas boas práticas)</li>
     <li>Objetos com arrays (são tipos de dados que juntos são fáceis de utilizar, visando os vários métodos que os dois possuem)</li>
     <li>Design Patterns (a factory function foi utilizado para deixar o código mais direto e conciso, assim não precisando utilizar funções contrutoras ou classes que dificultam a legibilidade)</li>
     <li>Destructuring (usado para obter propriedades de objetos)</li>
@@ -63,6 +63,12 @@
     O getArrayFromLocalStorage obtém o array do local Storage e armazena na constante getUsersItem, se o getUsersItem for diferente de null ele é covertido para array e retornado, caso contrário, é retornado um array vazio. 
   </p>
 </div>
+  
+<div>
+  <h1>Criar usuário</h1>
+  <img src="">
+</div>
+  
   
   
   
