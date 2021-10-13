@@ -16,6 +16,15 @@
 </div>
 
 <div>
+  <h1>Tecnologias utilizadas</h1>
+  <a href="">
+    <img align="center" width="40" height="30" alt="Gustavo-Html5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+    <img align="center" width="40" height="30" alt="Gustavo-Css3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+    <img align="center" width="40" height="30" alt="Gustavo-JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  </a>
+</div>
+
+<div>
   <h1>Features e conceitos utilizados 🛠️</h1>
   <h4>
     Importante: Esse não é o melhor jeito para contruir uma aplicação como esta e com certeza devem existir conceitos e métodos mais fáceis, porém,
