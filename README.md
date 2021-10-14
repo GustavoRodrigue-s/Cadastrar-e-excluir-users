@@ -125,3 +125,12 @@
     E por último, esse array é setado no local storage covertido em string com o <em>JSON</em>.
   </p>
 </div>
+
+##
+<div>
+  <p>
+    Obrigado por ler até aqui, demorei muito para planejar, produzir e executar este texto e projeto. Espero que isso ajude muitas pessoas, see you later. 👋
+  </p>
+</div>  
+  
+
