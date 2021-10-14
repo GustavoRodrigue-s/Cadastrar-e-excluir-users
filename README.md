@@ -57,7 +57,7 @@
 </div>
   
 <div>
-  <h2>Obter o array de usuários do local Storage</h2>  
+  <h2>1 - Obter o array de usuários do local Storage</h2>  
   <img src="https://user-images.githubusercontent.com/81722068/136864730-949f1941-b4e0-4f52-8db2-669f9a699cf9.png">
   <p>
     O <strong>getArrayFromLocalStorage()</strong> obtém o array do local Storage e armazena na constante <strong>getUsersItem</strong>, se o <strong>getUsersItem</strong> for diferente de null ele é covertido para array e retornado, caso contrário, é retornado um array vazio. 
@@ -65,7 +65,7 @@
 </div>
   
 <div>
-  <h2>Criar usuário</h2>
+  <h2>2 - Criar usuário</h2>
   <img src="https://user-images.githubusercontent.com/81722068/137212839-e52a5822-132a-4252-bcea-a3c305fa62a3.png">
   <p>
     Na função <strong>createUserForLocalStorage()</strong> eu usei o evento de submit, isso porque, dentro do contexto em que o usuário precisa inserir e enviar informações, o uso do form é semântico e também para facilitar na captura de elementos. O método <strong>preventDefault()</strong> é usado para parar o evento de atualizar a página causado pelo evento submit.
@@ -82,7 +82,7 @@
 </div>
   
 <div>
-  <h2>Atualizar tabela</h2>
+  <h2>3 - Atualizar tabela</h2>
   <img src="https://user-images.githubusercontent.com/81722068/137231878-b2f55010-e615-4a37-9439-af8f88bb8d12.png">
   <p>
     A <strong>updateTable()</strong> possuí um parâmetro <strong>arry</strong>, caso esse parâmetro seja undefined, ela vai receber o array retornado da função <strong>getArrayFromLocalStorage()</strong> e a constante <strong>arrayForUsers</strong> recebe esse parâmetro. 
@@ -96,7 +96,7 @@
 </div>
   
 <div>
-  <h2>Buscar usuários</h2>
+  <h2>4 - Buscar usuários</h2>
   <img src="https://user-images.githubusercontent.com/81722068/137398449-a2b88916-5be9-46d4-a949-8d7bb9338049.png">
   <p>
     Dentro desta função, a constante <strong>arrayForUsers</strong> obtém o array retornado, a constante <strong>inputSearch</strong> recebe o valor do elemento que está dentro da tag form e que possuí o atributo name de "inputSearch". 
@@ -110,7 +110,7 @@
 </div>
 
 <div>
-  <h2>Deletar usuário</h2>
+  <h2>5 - Deletar usuário</h2>
   <img src="https://user-images.githubusercontent.com/81722068/137401082-d4605d14-4d42-430f-b4f9-3014e8e19254.png">
   <p>
     Nesta função, temos uma condição que verifica se o alvo clicado tem como tag <em>"BUTTON"</em> (<strong>e.target</strong> retorna o elemento clicado e <strong>e.target.tagName</strong> retorna o nome da tag do elmento clicado).
@@ -125,7 +125,3 @@
     E por último, esse array é setado no local storage covertido em string com o <em>JSON</em>.
   </p>
 </div>
-
-
-  
-  
