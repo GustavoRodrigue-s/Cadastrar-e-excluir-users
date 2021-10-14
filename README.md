@@ -1,5 +1,5 @@
 <div>
-  <h1>O que é isso? 👨‍💻</h1>
+  <h1>O que é isto? 👨‍💻</h1>
   <p>
     Este texto apresenta detalhadamente as funcionalidades e minhas decisões para a construção desta aplicação web. O objetivo de documentar
     o projeto é para fins educacionais, tanto para me ajudar e ajudar outros desenvolvedores. 
@@ -60,15 +60,25 @@
   <h2>Obter o array de usuários do local Storage</h2>  
   <img src="https://user-images.githubusercontent.com/81722068/136864730-949f1941-b4e0-4f52-8db2-669f9a699cf9.png">
   <p>
-    O getArrayFromLocalStorage obtém o array do local Storage e armazena na constante getUsersItem, se o getUsersItem for diferente de null ele é covertido para array e retornado, caso contrário, é retornado um array vazio. 
+    O <strong>getArrayFromLocalStorage()</strong> obtém o array do local Storage e armazena na constante <strong>getUsersItem</strong>, se o <strong>getUsersItem</strong> for diferente de null ele é covertido para array e retornado, caso contrário, é retornado um array vazio. 
   </p>
 </div>
   
 <div>
-  <h1>Criar usuário</h1>
-  <img src="">
+  <h2>Criar usuário</h2>
+  <img src="https://user-images.githubusercontent.com/81722068/137212839-e52a5822-132a-4252-bcea-a3c305fa62a3.png">
+  <p>
+    Na função <strong>createUserForLocalStorage()</strong> eu usei o evento de submit, isso porque, dentro do contexto em que o usuário precisa inserir e enviar informações, o uso do form é semântico e também para facilitar na captura de elementos. O método <strong>preventDefault()</strong> é usado para parar o evento de atualizar a página causado pelo evento submit. Duas constantes são declaradas com a syntax do destructuring obtendo assim da tag form, dois elementos que possuem o atributo name "inputUsername" e "inputAge". O <strong>arrayForUsers</strong> obtém o array retornado pela função. A constante <strong>user</strong> chama a <em>factory function</em>, ela cria e retorna um objeto (O objeto é envolvido em parênteses para ser retornado implicitamente pela arrow function) e logo em seguida esse objeto é adicionado em última posição do array com o método push(). O <strong>arrayForUsers</strong> é setado no local storage covertido para string com o JSON e depois a função <strong>updateTable()</strong> é chamada.
+  </p>
 </div>
   
+<div>
+  <h2>Atualizar tabela</h2>
+  <img src="https://user-images.githubusercontent.com/81722068/137231878-b2f55010-e615-4a37-9439-af8f88bb8d12.png">
+  <p>
+    A <strong>updateTable()</strong> possuí um parâmetro <strong>arry</strong>, caso esse parâmetro seja undefined, ela vai receber o array retornado da função <strong>getArrayFromLocalStorage</strong> e a constante <strong>arrayForUsers</strong> recebe esse parâmetro. O <strong>tbody_user</strong> (aonde todos usuários da tabela ficam) é "limpado" e logo em seguida o <strong>arrayForUsers</strong> é percorrido pelo método <em>forEach</em> e o <strong>tbody_user</strong> printa todos usuários do array (eu deixei o id no data-id porque para o usuário não é importante saber o id). E por último, todos table rows recebem um evento de click para serem deletados. A <strong>updateTable()</strong> é chamada para printar os usuários ao carregar a página.
+  </p>
+</div>
   
   
   
