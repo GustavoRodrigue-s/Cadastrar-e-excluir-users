@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #212533, #20263a);
+    color: #fff;
+}
+
+.camp-elements {
+    padding: 20px; 
+    transition: 0.6s ease;
+}
+.camp-elements > h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #3ece67;
+    font-size: 2.5em;
+}
+.field-search > form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.field-add {
+    max-width: 700px;
+    margin: 10px auto 0 auto;
+    padding: 5px 0;
+}
+
+.expand-add {
+    text-align: center;
+    margin-top: -45px;
+    transition: 0.4s ease;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    z-index: 1;
+}
+.expand-add.active {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.field-add > h1 {
+    margin: 10px 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.field-add > h1[data-js="true"] > img {
+    transform: rotateZ(-180deg);
+}
+.field-add > h1 > img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-left: -6px;
+    transition: 0.4s ease;
+}
+
+/*INPUTS STYLIZATION*/
+input {
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 3px;
+    border: none;
+}
+.input-text {
+    max-width: 655px;
+    height: 45px;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 1.3em;
+}
+.input-username {
+    max-width: 200px;
+    height: 35px;
+    font-size: 1em;
+}
+.input-age {
+    max-width: 100px;
+    height: 35px;
+    text-align: center;
+    font-size: 1em;
+    padding: 0 10px;
+}
+
+/*BUTTONS STYLIZATION*/
+.button-search, .button-delete, .field-add button {
+    height: 45px;
+    width: 100%;
+    max-width: 45px;
+    border: none;
+    border-radius: 3px;
+    background: #3ece67;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+    flex-shrink: 0;
+}
+.button-search {
+    border-radius: 0 3px 3px 0;
+}
+.button-search > img {
+    width: 100%;
+    height: 100%;
+}
+.button-search:hover, .field-add button:hover {
+    background: #3ece67b4;
+}
+.button-search:active, .field-add button:active {
+    transition: 0.2s;
+    background: #3ece67;
+}
+.field-add button {
+    max-width: 100px;
+    height: 35px;
+    font-size: 1em;
+}
+.button-delete {
+    width: 30px;
+    height: 30px;
+    background: rgb(167, 0, 0);
+    border: none;
+    font-size: 1em;
+}
+
+/* TABLE STYLIZATION */
+.table-users {
+    margin-bottom: 50px;
+}
+table {
+    max-width: 95%;
+    margin: auto;
+    color: #fff; 
+    text-align: center;
+    font: 1.3em sans-serif;
+    border-radius: 5px;
+    border-spacing: 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.164);
+}
+thead th {
+    width: 230px;
+    border-bottom: 2px solid rgb(138, 138, 138);
+}
+thead th:first-child {
+    text-align: left;
+    width: 370px;
+}
+thead th:last-child {
+    width: 50px;
+}
+.tbody-user td:not(:last-child), thead th {
+    padding: 0 30px;
+}
+.tbody-user td:first-child {
+    text-align: left;
+}
+.table-users tr {
+    height: 50px;
+    background: #293446;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.table-users tr:nth-child(even), .table-users .tr-title{
+    background:#222b38;
+}
+.tbody-user tr:hover {
+    background: #35435a;
+}
+.table-users .tr-title {
+    text-transform: uppercase;
+}

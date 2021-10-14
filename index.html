@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gustavo Rodrigues Fabiano"
+    <link rel="stylesheet" href="style.css">
+    <title>Banco de usuários</title>
+</head>
+<body>
+    <div class="camp-elements">
+        <h1>Banco de usuários</h1>
+        <div class="field-search">
+            <form data-js="user-search-form">
+                <input type="search" name="inputSearch" class="input-text" placeholder="Buscar usuário..." autocomplete="off">
+                <button class="button-search" type="submit">
+                    <img src="imgs/search_white_24dp.svg" alt="search">
+                </button>
+            </form>
+        </div>
+        <div class="field-add">
+            <h1 data-js="false" id="expand-h1">Adicionar Usuário 
+                <img src="imgs/expand_more_white_24dp.svg" alt="icon">
+            </h1>
+            <div class="expand-add">
+                <form data-js="user-registration-form">
+                    <input type="text" name="inputUsername" class="input-username" placeholder="Nome..." maxlength="25" autocomplete="off">
+                    <input type="number" name="inputAge" class="input-age" placeholder="Idade..." max="120" min="1">
+                    <button class="add-user-button" type="submit">Adicionar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-users">
+        <table id="table-users">
+            <thead>
+                <tr class="tr-title" scope="column">
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tbody-user" class="tbody-user">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="style.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
